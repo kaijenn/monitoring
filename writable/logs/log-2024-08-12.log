@@ -1,0 +1,476 @@
+ERROR - 2024-08-12 09:21:33 --> Unknown column 'delete_at' in 'field list'
+ERROR - 2024-08-12 09:26:12 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 09:26:12 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 09:26:33 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 09:26:33 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 09:26:35 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 09:26:35 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 10:46:37 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 10:46:37 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 10:46:38 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 10:46:38 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 10:46:48 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 10:46:48 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 10:46:57 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 10:46:57 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 10:50:57 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 10:50:57 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 10:50:58 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 10:50:58 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 10:50:59 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 10:50:59 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 10:50:59 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 10:50:59 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 10:51:27 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 10:51:27 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 10:51:29 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 10:51:29 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-12 10:52:01 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\laundry\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laundry\\app\\...')
+#1 C:\laundry\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_la...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_la...')
+#3 C:\laundry\app\Controllers\Home.php(281): spl_autoload_call('App\\Models\\M_la...')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-08-12 10:54:01 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 10:54:01 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 10:54:02 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 10:54:02 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 10:55:21 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 10:55:21 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 10:56:13 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 10:56:13 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 10:59:28 --> Column 'deleted_at' in where clause is ambiguous
+ERROR - 2024-08-12 11:02:09 --> Column 'deleted_at' in where clause is ambiguous
+ERROR - 2024-08-12 11:02:25 --> Column 'deleted_at' in where clause is ambiguous
+ERROR - 2024-08-12 11:02:28 --> Column 'deleted_at' in where clause is ambiguous
+ERROR - 2024-08-12 11:03:15 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 11:03:15 --> Call to a member function orderBy() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 11:03:32 --> Column 'deleted_at' in where clause is ambiguous
+ERROR - 2024-08-12 11:04:43 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 11:04:43 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 11:09:15 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 11:09:15 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 11:09:15 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 11:09:15 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 11:09:17 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 11:09:17 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 11:09:18 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 11:09:18 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 11:09:29 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 11:09:29 --> Call to a member function orderBy() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 11:09:30 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 11:09:30 --> Call to a member function orderBy() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 11:09:48 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 11:09:48 --> Call to a member function orderBy() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 11:10:31 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 11:10:31 --> Call to a member function get() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 11:11:07 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 11:11:07 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-12 11:11:24 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-12 11:11:24 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-12 11:12:22 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\pemesanan_admin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 30, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('pemesanan_admin', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(304): view('pemesanan_admin', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-08-12 11:13:09 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\pemesanan_admin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 30, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('pemesanan_admin', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(304): view('pemesanan_admin', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-08-12 11:20:49 --> Too few arguments to function App\Models\M_laundry::join4tblwhere(), 8 passed in C:\laundry\app\Controllers\Home.php on line 286 and exactly 10 expected
+#0 C:\laundry\app\Controllers\Home.php(286): App\Models\M_laundry->join4tblwhere('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-12 11:21:04 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\pemesanan_admin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 30, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('pemesanan_admin', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(304): view('pemesanan_admin', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-08-12 11:21:18 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\pemesanan_admin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 30, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('pemesanan_admin', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(304): view('pemesanan_admin', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-08-12 11:22:40 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\pemesanan_admin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 30, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('pemesanan_admin', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(304): view('pemesanan_admin', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-08-12 11:24:11 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\pemesanan_admin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 30, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('pemesanan_admin', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(304): view('pemesanan_admin', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-08-12 11:26:50 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\pemesanan_admin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 30, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('pemesanan_admin', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(307): view('pemesanan_admin')
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-08-12 11:38:36 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('restore', Array, true)
+#2 C:\laundry\app\Controllers\Home.php(341): view('restore', Array)
+#3 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#4 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#8 {main}
+CRITICAL - 2024-08-12 12:14:05 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(644): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 644, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota2('PS00000003', 'images', 'faces', 'face1.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-12 12:14:05 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(644): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 644, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota2('PS00000003', 'images', 'faces', 'face2.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-12 12:14:05 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(644): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 644, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota2('PS00000003', 'images', 'faces', 'face3.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-12 12:14:05 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(644): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 644, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota2('PS00000003', 'images', 'faces', 'face4.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-12 12:14:05 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(644): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 644, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota2('PS00000003', 'images', 'faces', 'face5.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-12 12:14:05 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(644): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 644, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota2('PS00000003', 'images', 'faces', 'face6.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-12 12:14:32 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(644): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 644, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota2('PS00000003', 'images', 'faces', 'face1.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-12 12:14:33 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(644): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 644, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota2('PS00000003', 'images', 'faces', 'face2.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-12 12:14:33 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(644): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 644, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota2('PS00000003', 'images', 'faces', 'face3.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-12 12:14:33 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(644): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 644, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota2('PS00000003', 'images', 'faces', 'face4.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-12 12:14:33 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(644): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 644, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota2('PS00000003', 'images', 'faces', 'face5.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-12 12:14:33 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(644): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 644, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota2('PS00000003', 'images', 'faces', 'face6.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}

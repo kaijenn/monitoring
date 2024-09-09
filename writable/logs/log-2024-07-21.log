@@ -1,0 +1,141 @@
+CRITICAL - 2024-07-21 06:05:12 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\t_pemesanan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 11, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('t_pemesanan', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(91): view('t_pemesanan', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->t_pemesanan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-21 06:05:13 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\t_pemesanan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 11, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('t_pemesanan', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(91): view('t_pemesanan', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->t_pemesanan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-21 06:05:13 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\t_pemesanan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 11, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('t_pemesanan', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(91): view('t_pemesanan', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->t_pemesanan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-21 06:06:29 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\t_pemesanan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 11, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('t_pemesanan', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(91): view('t_pemesanan', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->t_pemesanan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-21 06:08:20 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\t_pemesanan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 11, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('t_pemesanan', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(91): view('t_pemesanan', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->t_pemesanan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+ERROR - 2024-07-21 06:15:13 --> Unknown column 'id_pakaian' in 'field list'
+ERROR - 2024-07-21 06:16:32 --> Unknown column 'id_pakaian' in 'field list'
+ERROR - 2024-07-21 06:21:47 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-21 06:21:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(78): App\Models\M_laundry->tampil('pemesanan')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-21 23:19:36 --> Unknown column 'pemesanan.id_jpakaian' in 'on clause'
+CRITICAL - 2024-07-21 23:19:36 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(78): App\Models\M_laundry->join('pemesanan', 'jpakaian', 'jpakaian.id_jpa...')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-21 23:19:55 --> Argument 2 passed to view() must be of the type array, null given, called in C:\laundry\app\Controllers\Home.php on line 81
+#0 C:\laundry\app\Controllers\Home.php(81): view('pemesanan', NULL)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-21 23:19:58 --> Unknown column 'pemesanan.id_jpakaian' in 'on clause'
+CRITICAL - 2024-07-21 23:19:58 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(78): App\Models\M_laundry->join('pemesanan', 'jpakaian', 'jpakaian.id_jpa...')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-21 23:19:59 --> Unknown column 'pemesanan.id_jpakaian' in 'on clause'
+CRITICAL - 2024-07-21 23:19:59 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(78): App\Models\M_laundry->join('pemesanan', 'jpakaian', 'jpakaian.id_jpa...')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-21 23:19:59 --> Unknown column 'pemesanan.id_jpakaian' in 'on clause'
+CRITICAL - 2024-07-21 23:19:59 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(78): App\Models\M_laundry->join('pemesanan', 'jpakaian', 'jpakaian.id_jpa...')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-21 23:19:59 --> Unknown column 'pemesanan.id_jpakaian' in 'on clause'
+CRITICAL - 2024-07-21 23:19:59 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(78): App\Models\M_laundry->join('pemesanan', 'jpakaian', 'jpakaian.id_jpa...')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-21 23:20:12 --> Too few arguments to function App\Models\M_laundry::join(), 1 passed in C:\laundry\app\Controllers\Home.php on line 78 and exactly 3 expected
+#0 C:\laundry\app\Controllers\Home.php(78): App\Models\M_laundry->join('pemesanan')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-21 23:24:58 --> Unknown column 'jenis_pemesanan' in 'field list'
+ERROR - 2024-07-21 23:28:59 --> Unknown column 'jenis_pemesanan' in 'field list'
+ERROR - 2024-07-21 23:29:27 --> Unknown column 'jenis_pemesanan' in 'field list'

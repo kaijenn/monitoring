@@ -1,0 +1,159 @@
+ERROR - 2024-09-02 18:37:33 --> Table 'projekbaru.users' doesn't exist
+CRITICAL - 2024-09-02 18:37:33 --> Call to a member function getResult() on bool
+#0 G:\My Drive\projekbaru\app\Controllers\Home.php(245): App\Models\M_projek->tampilWhere1('kelas', Array)
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->kelas_admin()
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#6 {main}
+CRITICAL - 2024-09-02 19:53:14 --> Call to a member function model() on null
+#0 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->update_status('1')
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#5 {main}
+CRITICAL - 2024-09-02 19:54:04 --> Call to undefined method App\Models\M_projek::update_status
+#0 G:\My Drive\projekbaru\app\Controllers\Home.php(251): CodeIgniter\Model->__call('update_status', Array)
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->update_status('1')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#6 {main}
+CRITICAL - 2024-09-02 19:54:18 --> Call to undefined method App\Models\M_projek::update_status
+#0 G:\My Drive\projekbaru\app\Controllers\Home.php(251): CodeIgniter\Model->__call('update_status', Array)
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->update_status('1')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#6 {main}
+CRITICAL - 2024-09-02 19:54:26 --> Call to undefined method App\Models\M_projek::update_status
+#0 G:\My Drive\projekbaru\app\Controllers\Home.php(251): CodeIgniter\Model->__call('update_status', Array)
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->update_status('1')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#6 {main}
+CRITICAL - 2024-09-02 19:54:27 --> Call to undefined method App\Models\M_projek::update_status
+#0 G:\My Drive\projekbaru\app\Controllers\Home.php(251): CodeIgniter\Model->__call('update_status', Array)
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->update_status('1')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#6 {main}
+CRITICAL - 2024-09-02 19:54:28 --> Call to undefined method App\Models\M_projek::update_status
+#0 G:\My Drive\projekbaru\app\Controllers\Home.php(251): CodeIgniter\Model->__call('update_status', Array)
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->update_status('1')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#6 {main}
+ERROR - 2024-09-02 19:54:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 SET `status` = 'sedang di pakai'' at line 1
+CRITICAL - 2024-09-02 19:54:34 -->  route cannot be found while reverse-routing.
+#0 G:\My Drive\projekbaru\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 G:\My Drive\projekbaru\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 G:\My Drive\projekbaru\app\Controllers\Home.php(254): redirect('home/kelas_admi...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->update_status('1')
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#8 {main}
+ERROR - 2024-09-02 19:54:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 SET `status` = 'sedang di pakai'' at line 1
+CRITICAL - 2024-09-02 19:54:39 -->  route cannot be found while reverse-routing.
+#0 G:\My Drive\projekbaru\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 G:\My Drive\projekbaru\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 G:\My Drive\projekbaru\app\Controllers\Home.php(254): redirect('home/kelas_admi...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->update_status('1')
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#8 {main}
+CRITICAL - 2024-09-02 19:55:50 --> There is no data to update.
+#0 G:\My Drive\projekbaru\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 G:\My Drive\projekbaru\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 G:\My Drive\projekbaru\app\Models\M_projek.php(201): CodeIgniter\Model->update('1', Array)
+#3 G:\My Drive\projekbaru\app\Controllers\Home.php(251): App\Models\M_projek->updatee('1', Array)
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->update_status('1')
+#5 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#9 {main}
+CRITICAL - 2024-09-02 19:56:22 --> There is no data to update.
+#0 G:\My Drive\projekbaru\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 G:\My Drive\projekbaru\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 G:\My Drive\projekbaru\app\Models\M_projek.php(201): CodeIgniter\Model->update('1', Array)
+#3 G:\My Drive\projekbaru\app\Controllers\Home.php(251): App\Models\M_projek->updatee('1', Array)
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->update_status('1')
+#5 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#9 {main}
+ERROR - 2024-09-02 19:56:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 SET `status` = 'sedang di pakai'' at line 1
+CRITICAL - 2024-09-02 19:56:49 -->  route cannot be found while reverse-routing.
+#0 G:\My Drive\projekbaru\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 G:\My Drive\projekbaru\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 G:\My Drive\projekbaru\app\Controllers\Home.php(254): redirect('home/kelas_admi...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->update_status('1')
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#8 {main}
+CRITICAL - 2024-09-02 21:20:09 --> Too few arguments to function App\Controllers\Home::kelas_admin(), 0 passed in G:\My Drive\projekbaru\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->kelas_admin()
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#5 {main}
+CRITICAL - 2024-09-02 21:21:43 --> Too few arguments to function App\Controllers\Home::kelas_admin(), 0 passed in G:\My Drive\projekbaru\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->kelas_admin()
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#5 {main}
+CRITICAL - 2024-09-02 21:23:34 --> Too few arguments to function App\Controllers\Home::kelas_admin(), 0 passed in G:\My Drive\projekbaru\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->kelas_admin()
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#5 {main}
+ERROR - 2024-09-02 21:28:52 --> Column 'id_user' in where clause is ambiguous
+CRITICAL - 2024-09-02 21:28:52 --> Call to a member function getResult() on bool
+#0 G:\My Drive\projekbaru\app\Controllers\Home.php(257): App\Models\M_projek->joinKelasWithUser1(Array)
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->kelas_admin()
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#6 {main}
+ERROR - 2024-09-02 21:32:43 --> Column 'id_user' in where clause is ambiguous
+CRITICAL - 2024-09-02 21:32:43 --> Call to a member function getResult() on bool
+#0 G:\My Drive\projekbaru\app\Controllers\Home.php(255): App\Models\M_projek->joinKelasWithUser1(Array)
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->kelas_admin()
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#6 {main}
+ERROR - 2024-09-02 21:33:42 --> Column 'id_user' in where clause is ambiguous
+CRITICAL - 2024-09-02 21:33:42 --> Call to a member function getResult() on bool
+#0 G:\My Drive\projekbaru\app\Controllers\Home.php(255): App\Models\M_projek->joinKelasWithUser1(Array)
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->kelas_admin()
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#6 {main}

@@ -1,0 +1,399 @@
+ERROR - 2024-07-29 01:48:07 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-07-29 01:48:07 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(379): App\Models\M_laundry->join4tblAndFilterByUser('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', NULL)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-29 01:48:10 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-07-29 01:48:10 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(357): App\Models\M_laundry->join4tblAndFilterByUser1('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', NULL)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-29 01:48:11 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-07-29 01:48:11 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(379): App\Models\M_laundry->join4tblAndFilterByUser('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', NULL)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-29 01:48:14 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-07-29 01:48:14 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(357): App\Models\M_laundry->join4tblAndFilterByUser1('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', NULL)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-29 01:49:05 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-07-29 01:49:05 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(357): App\Models\M_laundry->join4tblAndFilterByUser1('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', NULL)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-29 07:53:00 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\laundry\\syst...', 182, Array)
+#1 C:\laundry\system\HTTP\Files\UploadedFile.php(182): mkdir('<laundry>public...', 511, true)
+#2 C:\laundry\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('<laundry>public...')
+#3 C:\laundry\app\Controllers\Home.php(599): CodeIgniter\HTTP\Files\UploadedFile->move('<laundry>public...', 'Screenshot (2)....')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_e_setting()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-29 07:54:44 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\laundry\\syst...', 182, Array)
+#1 C:\laundry\system\HTTP\Files\UploadedFile.php(182): mkdir('<laundry>public...', 511, true)
+#2 C:\laundry\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('<laundry>public...')
+#3 C:\laundry\app\Controllers\Home.php(599): CodeIgniter\HTTP\Files\UploadedFile->move('<laundry>public...', 'favicon.png')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_e_setting()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-29 07:57:42 --> Call to a member function isValid() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_e_setting()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-29 07:57:48 --> Call to a member function isValid() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_e_setting()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-29 07:57:55 --> Call to a member function isValid() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_e_setting()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-29 08:04:27 --> Call to a member function isValid() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_e_setting()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-29 22:57:13 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-07-29 22:57:15 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-07-29 22:57:15 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(554): App\Models\M_laundry->tampil('setting')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 22:57:19 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-29 22:57:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(554): App\Models\M_laundry->tampil('setting')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 22:57:30 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-29 22:57:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 22:58:31 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-07-29 22:58:31 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:01:08 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-29 23:01:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-29 23:05:13 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-07-29 23:05:15 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-07-29 23:05:15 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:05:38 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-07-29 23:05:38 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:05:42 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-29 23:05:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:05:46 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-29 23:05:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:05:50 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-29 23:05:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:05:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-29 23:05:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:05:58 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-29 23:05:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:06:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-29 23:06:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:06:07 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-07-29 23:06:07 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:06:10 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-07-29 23:06:10 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:06:13 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-07-29 23:06:13 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:06:17 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-29 23:06:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(35): App\Models\M_laundry->getWhere1('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:06:46 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-07-29 23:06:46 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(187): App\Models\M_laundry->tampil('user')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->karyawan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:06:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-29 23:06:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(187): App\Models\M_laundry->tampil('user')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->karyawan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:07:10 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-07-29 23:07:10 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(187): App\Models\M_laundry->tampil('user')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->karyawan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-29 23:09:40 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-07-29 23:09:40 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(187): App\Models\M_laundry->tampil('user')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->karyawan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-29 23:13:34 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

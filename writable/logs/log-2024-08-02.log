@@ -1,0 +1,105 @@
+ERROR - 2024-08-02 05:48:44 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-08-02 05:48:44 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(298): App\Models\M_laundry->join4tblAndFilterByUser('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-02 05:48:47 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-08-02 05:48:47 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(507): App\Models\M_laundry->join4tblAndFilterByUser('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-02 05:48:48 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-08-02 05:48:48 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(485): App\Models\M_laundry->join4tblAndFilterByUser1('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-02 05:48:58 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-08-02 05:48:58 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(298): App\Models\M_laundry->join4tblAndFilterByUser('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-02 23:48:36 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-08-02 23:48:36 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(271): App\Models\M_laundry->join4tbl('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-02 23:48:41 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-08-02 23:48:41 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(939): App\Models\M_laundry->tampil('jpakaian')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->jenis_paket()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-02 23:48:45 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-08-02 23:48:45 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(939): App\Models\M_laundry->tampil('jpakaian')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->jenis_paket()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-02 23:48:54 --> Unknown column 'update_by' in 'field list'
+ERROR - 2024-08-02 23:48:55 --> Unknown column 'update_by' in 'field list'
+ERROR - 2024-08-02 23:48:58 --> Unknown column 'update_by' in 'field list'
+ERROR - 2024-08-02 23:49:24 --> Error connecting to the database: Unknown database 'laundry1'
+CRITICAL - 2024-08-02 23:49:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'laundry1'
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(606): App\Models\M_laundry->getWhere1('setting', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-08-02 23:49:31 --> Error connecting to the database: Unknown database 'laundry1'
+CRITICAL - 2024-08-02 23:49:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'laundry1'
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(606): App\Models\M_laundry->getWhere1('setting', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-08-02 23:49:32 --> Error connecting to the database: Unknown database 'laundry1'
+CRITICAL - 2024-08-02 23:49:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'laundry1'
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(606): App\Models\M_laundry->getWhere1('setting', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}

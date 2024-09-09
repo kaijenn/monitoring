@@ -1,0 +1,312 @@
+CRITICAL - 2024-09-05 10:38:45 --> Undefined variable $yogi
+#0 G:\My Drive\projekbaru\app\Views\header.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\My Drive\\pro...', 49)
+#1 G:\My Drive\projekbaru\system\View\View.php(230): include('G:\\My Drive\\pro...')
+#2 G:\My Drive\projekbaru\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\projekbaru\system\Common.php(1271): CodeIgniter\View\View->render('header', Array, true)
+#4 G:\My Drive\projekbaru\app\Controllers\Home.php(292): view('header')
+#5 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->kelas_admin()
+#6 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#10 {main}
+CRITICAL - 2024-09-05 10:39:09 --> Undefined variable $yogi
+#0 G:\My Drive\projekbaru\app\Views\header.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\My Drive\\pro...', 49)
+#1 G:\My Drive\projekbaru\system\View\View.php(230): include('G:\\My Drive\\pro...')
+#2 G:\My Drive\projekbaru\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\projekbaru\system\Common.php(1271): CodeIgniter\View\View->render('header', Array, true)
+#4 G:\My Drive\projekbaru\app\Controllers\Home.php(292): view('header')
+#5 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->kelas_admin()
+#6 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#10 {main}
+ERROR - 2024-09-05 10:40:28 --> Unknown column 'deleted_at' in 'field list'
+ERROR - 2024-09-05 10:40:38 --> Table 'projekbaru.kelas_backup' doesn't exist
+CRITICAL - 2024-09-05 10:40:38 --> Call to a member function getResult() on bool
+#0 G:\My Drive\projekbaru\app\Controllers\Home.php(397): App\Models\M_projek->tampil('kelas_backup')
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#6 {main}
+ERROR - 2024-09-05 10:47:30 --> Unknown column 'deleted_at' in 'field list'
+CRITICAL - 2024-09-05 11:04:12 --> Undefined variable $yogi
+#0 G:\My Drive\projekbaru\app\Views\header.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\My Drive\\pro...', 49)
+#1 G:\My Drive\projekbaru\system\View\View.php(230): include('G:\\My Drive\\pro...')
+#2 G:\My Drive\projekbaru\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\projekbaru\system\Common.php(1271): CodeIgniter\View\View->render('header', Array, true)
+#4 G:\My Drive\projekbaru\app\Controllers\Home.php(198): view('header')
+#5 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('1')
+#6 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#10 {main}
+CRITICAL - 2024-09-05 11:04:33 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(197): App\Models\M_projek->getUsernameById('vendors')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('vendors', 'js', 'vendor.bundle.b...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:04:34 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(197): App\Models\M_projek->getUsernameById('vendors')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('vendors', 'chart.js', 'Chart.min.js')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:04:34 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(197): App\Models\M_projek->getUsernameById('vendors')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('vendors', 'datatables.net', 'jquery.dataTabl...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:04:34 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(197): App\Models\M_projek->getUsernameById('vendors')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('vendors', 'datatables.net-...', 'dataTables.boot...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:04:35 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(197): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('js', 'dataTables.sele...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:04:35 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(197): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('js', 'off-canvas.js')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:04:36 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(197): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('js', 'hoverable-colla...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:04:36 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(197): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('js', 'template.js')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:04:36 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(197): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('js', 'settings.js')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:04:37 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(197): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('js', 'todolist.js')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:04:37 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(197): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('js', 'dashboard.js')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:04:37 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(197): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('js', 'Chart.roundedBa...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:11:05 --> Undefined variable $yogi
+#0 G:\My Drive\projekbaru\app\Views\header.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\My Drive\\pro...', 49)
+#1 G:\My Drive\projekbaru\system\View\View.php(230): include('G:\\My Drive\\pro...')
+#2 G:\My Drive\projekbaru\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\projekbaru\system\Common.php(1271): CodeIgniter\View\View->render('header', Array, true)
+#4 G:\My Drive\projekbaru\app\Controllers\Home.php(311): view('header')
+#5 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->e_kelas('1')
+#6 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#10 {main}
+CRITICAL - 2024-09-05 11:11:30 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(310): App\Models\M_projek->getUsernameById('vendors')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->e_kelas('vendors', 'js', 'vendor.bundle.b...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:11:30 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(310): App\Models\M_projek->getUsernameById('vendors')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->e_kelas('vendors', 'chart.js', 'Chart.min.js')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:11:31 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(310): App\Models\M_projek->getUsernameById('vendors')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->e_kelas('vendors', 'datatables.net', 'jquery.dataTabl...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:11:31 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(310): App\Models\M_projek->getUsernameById('vendors')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->e_kelas('vendors', 'datatables.net-...', 'dataTables.boot...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:11:31 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(310): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->e_kelas('js', 'dataTables.sele...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:11:32 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(310): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->e_kelas('js', 'off-canvas.js')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:11:32 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(310): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->e_kelas('js', 'hoverable-colla...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:11:32 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(310): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->e_kelas('js', 'template.js')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:11:33 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(310): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->e_kelas('js', 'settings.js')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:11:33 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(310): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->e_kelas('js', 'todolist.js')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:11:33 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(310): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->e_kelas('js', 'dashboard.js')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+CRITICAL - 2024-09-05 11:11:34 --> Attempt to read property "username" on null
+#0 G:\My Drive\projekbaru\app\Models\M_projek.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\pro...', 577)
+#1 G:\My Drive\projekbaru\app\Controllers\Home.php(310): App\Models\M_projek->getUsernameById('js')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->e_kelas('js', 'Chart.roundedBa...')
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#7 {main}
+ERROR - 2024-09-05 18:16:50 --> Unknown column 'deleted_at' in 'where clause'
+CRITICAL - 2024-09-05 18:16:51 --> Call to a member function getResult() on bool
+#0 G:\My Drive\projekbaru\app\Controllers\Home.php(278): App\Models\M_projek->tampilWhere('kelas', Array)
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->kelas_admin()
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#6 {main}
+CRITICAL - 2024-09-05 19:48:07 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\projekbaru\app\Views\restore_edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\pro...', 21, Array)
+#1 G:\My Drive\projekbaru\system\View\View.php(230): include('G:\\My Drive\\pro...')
+#2 G:\My Drive\projekbaru\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\projekbaru\system\Common.php(1271): CodeIgniter\View\View->render('restore_edit', Array, true)
+#4 G:\My Drive\projekbaru\app\Controllers\Home.php(457): view('restore_edit', Array)
+#5 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->restore_edit()
+#6 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#10 {main}
+ERROR - 2024-09-05 19:53:59 --> Unknown column 'kelas_backup.id_user' in 'where clause'
+CRITICAL - 2024-09-05 19:53:59 --> Call to a member function getResult() on bool
+#0 G:\My Drive\projekbaru\app\Controllers\Home.php(459): App\Models\M_projek->joinKelasWithUser1(Array)
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->restore_edit()
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#6 {main}
+CRITICAL - 2024-09-05 20:20:46 --> Too few arguments to function App\Controllers\Home::restore_edit(), 0 passed in G:\My Drive\projekbaru\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->restore_edit()
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#5 {main}

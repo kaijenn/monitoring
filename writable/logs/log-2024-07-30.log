@@ -1,0 +1,29 @@
+ERROR - 2024-07-30 01:16:28 --> Table 'laundry.setting' doesn't exist
+CRITICAL - 2024-07-30 01:16:28 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(554): App\Models\M_laundry->tampil('setting')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-30 23:45:10 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-07-30 23:45:10 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(176): App\Models\M_laundry->join4tblAndFilterByUser('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', NULL)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-30 23:45:13 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-07-30 23:45:13 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(363): App\Models\M_laundry->join4tblAndFilterByUser1('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', NULL)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-30 23:55:27 --> Unknown column 'foto' in 'field list'
+ERROR - 2024-07-30 23:58:26 --> Unknown column 'foto' in 'field list'

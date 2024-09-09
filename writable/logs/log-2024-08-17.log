@@ -1,0 +1,187 @@
+ERROR - 2024-08-17 12:48:14 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-08-17 12:48:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(61): App\Models\M_laundry->getWhere1('setting', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-08-17 14:13:01 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000003', 'images', 'faces', 'face1.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:13:01 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000003', 'images', 'faces', 'face2.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:13:01 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000003', 'images', 'faces', 'face3.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:13:01 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000003', 'images', 'faces', 'face4.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:13:01 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000003', 'images', 'faces', 'face5.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:13:01 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000003', 'images', 'faces', 'face6.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:30:18 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000005', 'images', 'faces', 'face1.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:30:18 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000005', 'images', 'faces', 'face2.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:30:18 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000005', 'images', 'faces', 'face3.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:30:18 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000005', 'images', 'faces', 'face4.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:30:18 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000005', 'images', 'faces', 'face5.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:30:18 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000005', 'images', 'faces', 'face6.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:33:00 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000005', 'images', 'faces', 'face1.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:33:00 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000005', 'images', 'faces', 'face2.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:33:00 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000005', 'images', 'faces', 'face3.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:33:00 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000005', 'images', 'faces', 'face4.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:33:00 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000005', 'images', 'faces', 'face5.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:33:00 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(685): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 685, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000005', 'images', 'faces', 'face6.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-17 14:33:22 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_laporan_excel()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-08-17 14:33:33 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_laporan_excel()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-08-17 14:33:51 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_laporan_excel()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-08-17 14:34:32 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_laporan_excel()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}

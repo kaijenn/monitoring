@@ -1,0 +1,24 @@
+ERROR - 2024-09-03 09:52:53 --> MySQL server has gone away
+CRITICAL - 2024-09-03 09:52:53 --> Call to a member function getResult() on bool
+#0 G:\My Drive\projekbaru\app\Controllers\Home.php(184): App\Models\M_projek->joinKelasWithUser(Array)
+#1 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('5')
+#2 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#6 {main}
+ERROR - 2024-09-03 09:53:27 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-09-03 09:53:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 G:\My Drive\projekbaru\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\projekbaru\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\projekbaru\app\Models\M_projek.php(545): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\My Drive\projekbaru\app\Controllers\Home.php(184): App\Models\M_projek->joinKelasWithUser(Array)
+#4 G:\My Drive\projekbaru\system\CodeIgniter.php(928): App\Controllers\Home->izin_kelas('5')
+#5 G:\My Drive\projekbaru\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\projekbaru\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\projekbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\projekbaru\system\Commands\Server\rewrite.php(45): require_once('G:\\My Drive\\pro...')
+#9 {main}

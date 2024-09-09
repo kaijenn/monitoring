@@ -1,0 +1,659 @@
+ERROR - 2024-07-24 00:05:34 --> Unknown column 'username' in 'field list'
+ERROR - 2024-07-24 00:06:33 --> Unknown column 'id_jpkaian' in 'field list'
+CRITICAL - 2024-07-24 00:10:21 --> Call to undefined method App\Models\M_laundry::join4tblAndFilterByUser
+#0 C:\laundry\app\Controllers\Home.php(96): CodeIgniter\Model->__call('join4tblAndFilt...', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-24 01:07:35 --> Unknown column 'created_at' in 'field list'
+ERROR - 2024-07-24 01:07:37 --> Unknown column 'created_at' in 'field list'
+ERROR - 2024-07-24 01:07:38 --> Unknown column 'created_at' in 'field list'
+ERROR - 2024-07-24 01:10:19 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2024-07-24 01:28:36 --> Call to undefined method App\Controllers\Home::getNextCartCode()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_t_pemesanan()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 01:30:51 --> Call to undefined method App\Controllers\Home::getNextCartCode()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_t_pemesanan()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 01:32:10 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laundry\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/t_pemesana...')
+#1 C:\laundry\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/t_pemesana...')
+#2 C:\laundry\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-24 01:32:11 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laundry\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/t_pemesana...')
+#1 C:\laundry\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/t_pemesana...')
+#2 C:\laundry\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-24 01:32:11 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laundry\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/t_pemesana...')
+#1 C:\laundry\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/t_pemesana...')
+#2 C:\laundry\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-24 01:32:11 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laundry\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/pemesanan')
+#1 C:\laundry\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/pemesanan')
+#2 C:\laundry\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-24 01:32:11 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laundry\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/pemesanan')
+#1 C:\laundry\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/pemesanan')
+#2 C:\laundry\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-24 01:32:12 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laundry\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/pemesanan')
+#1 C:\laundry\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/pemesanan')
+#2 C:\laundry\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-24 01:32:12 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laundry\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/pemesanan')
+#1 C:\laundry\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/pemesanan')
+#2 C:\laundry\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-24 01:32:12 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laundry\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/t_pemesana...')
+#1 C:\laundry\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/t_pemesana...')
+#2 C:\laundry\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-24 01:32:13 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laundry\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/t_pemesana...')
+#1 C:\laundry\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/t_pemesana...')
+#2 C:\laundry\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-24 01:32:13 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laundry\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 C:\laundry\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 C:\laundry\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-24 01:32:14 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laundry\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\laundry\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\laundry\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-24 01:32:14 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laundry\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('home/pemesanan')
+#1 C:\laundry\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('home/pemesanan')
+#2 C:\laundry\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-24 01:39:49 --> Unknown column 'created_at' in 'field list'
+ERROR - 2024-07-24 01:41:05 --> Unknown column 'created_at' in 'field list'
+ERROR - 2024-07-24 01:41:06 --> Unknown column 'created_at' in 'field list'
+ERROR - 2024-07-24 01:41:06 --> Unknown column 'created_at' in 'field list'
+ERROR - 2024-07-24 01:41:07 --> Unknown column 'created_at' in 'field list'
+ERROR - 2024-07-24 01:41:07 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2024-07-24 07:30:53 --> Invalid file: pemesanan_admin.php
+#0 C:\laundry\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pemesanan_admin...')
+#1 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('pemesanan_admin', Array, true)
+#2 C:\laundry\app\Controllers\Home.php(167): view('pemesanan_admin', Array)
+#3 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_admin()
+#4 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#8 {main}
+ERROR - 2024-07-24 07:33:34 --> Unknown column 'id_jpakaian' in 'field list'
+ERROR - 2024-07-24 07:33:41 --> Unknown column 'id_jpakaian' in 'field list'
+ERROR - 2024-07-24 07:36:54 --> Unknown column 'no_transaksi' in 'field list'
+CRITICAL - 2024-07-24 07:55:01 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 07:56:23 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 07:56:26 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 07:56:59 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 07:57:02 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 07:58:06 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 07:58:09 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 07:59:37 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 07:59:38 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 07:59:38 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 07:59:38 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 07:59:44 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 08:02:58 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\pemesanan_karyawan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 28, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('pemesanan_karya...', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(182): view('pemesanan_karya...', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-24 08:04:37 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 08:12:20 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 08:37:56 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\transaksi.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 80, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('transaksi', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(314): view('transaksi', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi_karyawan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+ERROR - 2024-07-24 08:38:34 --> Unknown column 'jpakaian.nama' in 'field list'
+CRITICAL - 2024-07-24 08:38:34 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(310): App\Models\M_laundry->join4tblAndFilterByUser1('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-24 08:39:15 --> Unknown column 'jpakaian.nama' in 'field list'
+CRITICAL - 2024-07-24 08:39:15 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(310): App\Models\M_laundry->join4tblAndFilterByUser1('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-24 08:44:00 --> Unknown column 'jpakaian.nama' in 'field list'
+CRITICAL - 2024-07-24 08:44:00 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(310): App\Models\M_laundry->join4tblAndFilterByUser1('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-24 08:44:01 --> Unknown column 'jpakaian.nama' in 'field list'
+CRITICAL - 2024-07-24 08:44:01 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(310): App\Models\M_laundry->join4tblAndFilterByUser1('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-24 08:44:01 --> Unknown column 'jpakaian.nama' in 'field list'
+CRITICAL - 2024-07-24 08:44:01 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(310): App\Models\M_laundry->join4tblAndFilterByUser1('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-24 08:50:10 --> Unknown column 'jpakaian.nama' in 'field list'
+CRITICAL - 2024-07-24 08:50:10 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(310): App\Models\M_laundry->join4tblAndFilterByUser('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-24 08:53:24 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+ERROR - 2024-07-24 08:53:36 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2024-07-24 08:53:36 --> Unknown column 'jpakaian.nama' in 'field list'
+CRITICAL - 2024-07-24 08:53:36 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(288): App\Models\M_laundry->join4tblAndFilterByUser1('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-24 09:06:53 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:10:36 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:10:37 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:10:38 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:10:38 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:10:38 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:10:38 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:10:41 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:11:23 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:10 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:10 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:10 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:10 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:10 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:10 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:11 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:12 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:12 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:12 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:12 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:13 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:13 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:13 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:13 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:13 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:13:13 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 09:20:07 --> Too few arguments to function App\Controllers\Home::aksi_bayar(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_bayar()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+ERROR - 2024-07-24 09:22:43 --> Unknown column 'kode_pemesanan' in 'field list'
+ERROR - 2024-07-24 09:24:56 --> Unknown column 'kode_pemesanan' in 'field list'
+ERROR - 2024-07-24 09:26:20 --> Unknown column 'kode_pemesanan' in 'field list'
+ERROR - 2024-07-24 09:26:43 --> Unknown column 'kode_pemesanan' in 'field list'
+ERROR - 2024-07-24 09:26:48 --> Unknown column 'kode_pemesanan' in 'field list'
+ERROR - 2024-07-24 09:30:32 --> Unknown column 'jenis_pakaian' in 'field list'
+CRITICAL - 2024-07-24 09:30:32 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(440): App\Models\M_laundry->cari()
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->printpdf()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-24 09:48:01 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2024-07-24 09:48:01 --> Unknown column 'jpakaian.nama' in 'field list'
+CRITICAL - 2024-07-24 09:48:01 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(288): App\Models\M_laundry->join4tblAndFilterByUser1('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-24 22:50:08 --> Unknown column 'kode_pemesanan' in 'field list'
+ERROR - 2024-07-24 22:50:56 --> Unknown column 'kode_pemesanan' in 'field list'
+CRITICAL - 2024-07-24 23:03:31 --> Too few arguments to function App\Controllers\Home::hapus_cart(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->hapus_cart()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 23:03:59 --> Too few arguments to function App\Controllers\Home::hapus_cart(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->hapus_cart()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 23:04:01 --> Too few arguments to function App\Controllers\Home::hapus_cart(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->hapus_cart()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 23:06:28 --> syntax error, unexpected '?>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('transaksi', Array, true)
+#2 C:\laundry\app\Controllers\Home.php(322): view('transaksi', Array)
+#3 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi_karyawan()
+#4 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#8 {main}
+ERROR - 2024-07-24 23:14:24 --> Unknown column 'jpakaian.nama' in 'field list'
+CRITICAL - 2024-07-24 23:14:24 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(288): App\Models\M_laundry->join4tblAndFilterByUser1('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-24 23:18:55 --> Object of class stdClass could not be converted to string
+#0 C:\laundry\system\View\View.php(230): include()
+#1 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('t_pelayanan', Array, true)
+#3 C:\laundry\app\Controllers\Home.php(416): view('t_pelayanan', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->t_pelayanan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-24 23:18:59 --> Object of class stdClass could not be converted to string
+#0 C:\laundry\system\View\View.php(230): include()
+#1 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('t_pelayanan', Array, true)
+#3 C:\laundry\app\Controllers\Home.php(416): view('t_pelayanan', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->t_pelayanan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-24 23:19:02 --> Object of class stdClass could not be converted to string
+#0 C:\laundry\system\View\View.php(230): include()
+#1 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('t_pelayanan', Array, true)
+#3 C:\laundry\app\Controllers\Home.php(416): view('t_pelayanan', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->t_pelayanan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-24 23:55:50 --> Too few arguments to function App\Controllers\Home::hapus_pelayanan(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->hapus_pelayanan()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 23:56:04 --> Too few arguments to function App\Controllers\Home::hapus_pelayanan(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->hapus_pelayanan()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 23:56:10 --> Too few arguments to function App\Controllers\Home::hapus_pelayanan(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->hapus_pelayanan()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 23:57:59 --> Too few arguments to function App\Controllers\Home::hapus_pelayanan(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->hapus_pelayanan()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-24 23:58:45 --> Too few arguments to function App\Controllers\Home::hapus_pelayanan(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->hapus_pelayanan()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}

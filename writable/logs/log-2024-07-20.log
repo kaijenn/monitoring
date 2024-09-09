@@ -1,0 +1,115 @@
+ERROR - 2024-07-20 18:38:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-20 18:38:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(78): App\Models\M_laundry->tampil('pemesanan')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-20 18:38:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-20 18:38:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(78): App\Models\M_laundry->tampil('pemesanan')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-20 18:39:09 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-20 18:39:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(78): App\Models\M_laundry->tampil('pemesanan')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-20 18:56:16 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-20 18:56:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(78): App\Models\M_laundry->tampil('pemesanan')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-20 19:17:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-20 19:17:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(87): App\Models\M_laundry->tampil('pemesanan')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->t_pemesanan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-20 19:17:39 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-20 19:17:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(87): App\Models\M_laundry->tampil('pemesanan')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->t_pemesanan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-20 19:17:41 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-07-20 19:17:41 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laundry\app\Controllers\Home.php(87): App\Models\M_laundry->tampil('pemesanan')
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->t_pemesanan()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-20 19:17:45 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\t_pemesanan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 11, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('t_pemesanan', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(91): view('t_pemesanan', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->t_pemesanan()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}

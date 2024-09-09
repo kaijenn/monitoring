@@ -1,0 +1,1080 @@
+ERROR - 2024-07-28 04:09:07 --> MySQL server has gone away
+CRITICAL - 2024-07-28 04:09:07 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(239): App\Models\M_laundry->tampil('user')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-28 04:09:21 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-07-28 04:09:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laundry\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laundry\system\Database\BaseBuilder.php(2049): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laundry\app\Models\M_laundry.php(59): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\laundry\app\Controllers\Home.php(38): App\Models\M_laundry->getWhere('user', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-28 04:09:29 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-07-28 04:09:29 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(180): App\Models\M_laundry->join4tblAndFilterByUser('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-28 04:09:32 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-07-28 04:09:32 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(180): App\Models\M_laundry->join4tblAndFilterByUser('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-28 04:09:35 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-07-28 04:09:35 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(370): App\Models\M_laundry->join4tblAndFilterByUser('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-28 04:11:38 --> Too few arguments to function App\Controllers\Home::hapus_pelayanan(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->hapus_pelayanan()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:33:32 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:34:12 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:34:42 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:34:43 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:34:43 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:34:43 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:34:45 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:35:36 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:36:31 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:36:32 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:36:32 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:36:34 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:37:12 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:37:41 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:38:39 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:38:40 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:38:43 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:39:27 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:39:28 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:39:28 --> Too few arguments to function App\Controllers\Home::detail_karyawan1(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:41:13 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\detail_karyawan1.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 18, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('detail_karyawan...', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(254): view('detail_karyawan...', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('images', 'faces', 'face4.jpg')
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-28 04:41:13 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\detail_karyawan1.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 18, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('detail_karyawan...', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(254): view('detail_karyawan...', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('images', 'faces', 'face2.jpg')
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-28 04:41:13 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\detail_karyawan1.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 18, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('detail_karyawan...', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(254): view('detail_karyawan...', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('images', 'faces', 'face3.jpg')
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-28 04:41:13 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\detail_karyawan1.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 18, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('detail_karyawan...', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(254): view('detail_karyawan...', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('images', 'faces', 'face1.jpg')
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-28 04:41:13 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\detail_karyawan1.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 18, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('detail_karyawan...', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(254): view('detail_karyawan...', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('images', 'faces', 'face5.jpg')
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-28 04:41:13 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\detail_karyawan1.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 18, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('detail_karyawan...', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(254): view('detail_karyawan...', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('images', 'faces', 'face6.jpg')
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-28 04:41:13 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\detail_karyawan1.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 18, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('detail_karyawan...', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(254): view('detail_karyawan...', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('images', 'faces', 'face2.jpg')
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-28 04:41:13 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\detail_karyawan1.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 18, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('detail_karyawan...', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(254): view('detail_karyawan...', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('images', 'faces', 'face3.jpg')
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-28 04:41:13 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\detail_karyawan1.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 18, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('detail_karyawan...', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(254): view('detail_karyawan...', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('images', 'faces', 'face4.jpg')
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-28 04:56:54 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:57:12 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:57:13 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:57:13 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:57:30 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:58:09 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:58:10 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:58:10 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 04:58:10 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:00:19 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:00:20 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:00:20 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:00:20 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:01:16 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:02:01 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:02:02 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:02:02 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:04:20 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:04:39 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:04:39 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:04:39 --> Call to undefined method stdClass::getRow()
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan1('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+ERROR - 2024-07-28 05:06:13 --> Unknown column 'update_at' in 'field list'
+ERROR - 2024-07-28 05:09:05 --> Unknown column 'update_at' in 'field list'
+ERROR - 2024-07-28 05:13:43 --> Unknown column 'update_at' in 'field list'
+ERROR - 2024-07-28 05:20:12 --> Unknown column 'update_at' in 'field list'
+ERROR - 2024-07-28 05:20:17 --> Unknown column 'update_at' in 'field list'
+CRITICAL - 2024-07-28 05:28:25 --> Call to a member function get() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetpassword('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:30:46 --> Call to a member function get() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetpassword('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:31:21 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Controllers\Home.php(317): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetpassword('6')
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 05:31:26 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Controllers\Home.php(317): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetpassword('6')
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 05:31:28 --> Call to a member function get() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetpassword('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:33:19 --> Call to a member function get() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetpassword('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:33:20 --> Call to a member function get() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetpassword('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:33:20 --> Call to a member function get() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetpassword('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:36:01 --> Too few arguments to function App\Controllers\Home::hapus_pelayanan(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->hapus_pelayanan()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 05:36:04 --> Too few arguments to function App\Controllers\Home::hapus_pelayanan(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->hapus_pelayanan()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+ERROR - 2024-07-28 05:39:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '6 SET `password` = '$2y$10$Pw9NxMtswwUaQy27WUygl./F3NdnTqG9J7bHEvq8o0Ja/z3X8H...' at line 1
+ERROR - 2024-07-28 05:40:39 --> Table 'laundry.jadwal' doesn't exist
+ERROR - 2024-07-28 05:41:27 --> Table 'laundry.jadwal' doesn't exist
+CRITICAL - 2024-07-28 05:45:55 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Models\M_laundry.php(65): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\app\Controllers\Home.php(317): App\Models\M_laundry->updatePassword('6', '$2y$10$0XfGkKSb...')
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-28 05:46:30 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Controllers\Home.php(317): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 05:46:31 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Controllers\Home.php(317): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 05:46:31 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Controllers\Home.php(317): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 05:46:31 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Controllers\Home.php(317): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 05:46:59 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Controllers\Home.php(317): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 05:47:03 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Controllers\Home.php(317): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 05:47:18 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Controllers\Home.php(317): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 05:47:21 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Controllers\Home.php(317): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 05:55:58 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Controllers\Home.php(317): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-28 05:56:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '6 SET `password` = '$2y$10$.FeWLcNtqM1QdSgqU8USpeLbMCIBIWbcRKA7R0OhtzWlrB7.hu...' at line 1
+ERROR - 2024-07-28 05:56:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '6 SET `password` = '$2y$10$1ZKNsAMTukKzD2Fn1MW.Ju7obv3WttVxVAVuATjB7iljE1894G...' at line 1
+CRITICAL - 2024-07-28 05:59:47 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Controllers\Home.php(309): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-28 06:04:05 --> Table 'laundry.users' doesn't exist
+ERROR - 2024-07-28 06:04:18 --> Table 'laundry.users' doesn't exist
+ERROR - 2024-07-28 06:04:20 --> Table 'laundry.users' doesn't exist
+ERROR - 2024-07-28 06:04:26 --> Table 'laundry.users' doesn't exist
+ERROR - 2024-07-28 06:04:36 --> Table 'laundry.users' doesn't exist
+ERROR - 2024-07-28 06:04:57 --> Unknown column 'id' in 'where clause'
+ERROR - 2024-07-28 06:05:36 --> Unknown column 'id' in 'where clause'
+ERROR - 2024-07-28 06:05:51 --> Unknown column 'id' in 'where clause'
+ERROR - 2024-07-28 06:07:25 --> Unknown column 'id' in 'where clause'
+ERROR - 2024-07-28 06:08:05 --> Unknown column 'id' in 'where clause'
+ERROR - 2024-07-28 06:08:32 --> Unknown column 'id' in 'where clause'
+ERROR - 2024-07-28 06:11:18 --> Unknown column 'id' in 'where clause'
+ERROR - 2024-07-28 06:11:59 --> Unknown column 'id' in 'where clause'
+ERROR - 2024-07-28 06:18:08 --> Unknown column 'id' in 'where clause'
+ERROR - 2024-07-28 06:18:32 --> Unknown column 'id' in 'where clause'
+ERROR - 2024-07-28 06:18:48 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2024-07-28 06:20:06 --> Call to a member function get() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetpassword('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 06:21:49 --> Call to a member function get() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetpassword('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 06:23:28 --> Call to a member function get() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 06:23:42 --> Too few arguments to function App\Controllers\Home::resetPassword(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 06:24:02 --> Too few arguments to function App\Controllers\Home::resetPassword(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 06:24:09 --> Too few arguments to function App\Controllers\Home::resetPassword(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 06:24:12 --> Call to a member function get() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 06:34:15 --> Call to a member function get() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+ERROR - 2024-07-28 06:37:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '6 SET `password_reset` = 1' at line 1
+ERROR - 2024-07-28 06:38:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '6 SET `password_reset` = 1' at line 1
+ERROR - 2024-07-28 06:40:09 --> Table 'laundry.laundry' doesn't exist
+CRITICAL - 2024-07-28 06:44:35 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Models\M_laundry.php(60): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\app\Controllers\Home.php(308): App\Models\M_laundry->resetPassword('6')
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-28 06:47:09 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Models\M_laundry.php(60): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\app\Controllers\Home.php(308): App\Models\M_laundry->resetPassword('6')
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-28 06:47:12 --> Allowed fields must be specified for model: App\Models\M_laundry
+#0 C:\laundry\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_la...')
+#1 C:\laundry\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laundry\app\Models\M_laundry.php(60): CodeIgniter\Model->update('6', Array)
+#4 C:\laundry\app\Controllers\Home.php(308): App\Models\M_laundry->resetPassword('6')
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->resetPassword('6')
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+ERROR - 2024-07-28 06:48:05 --> Table 'laundry.jadwal' doesn't exist
+ERROR - 2024-07-28 06:48:07 --> Table 'laundry.jadwal' doesn't exist
+ERROR - 2024-07-28 06:48:27 --> Table 'laundry.karyawan' doesn't exist
+ERROR - 2024-07-28 06:48:29 --> Table 'laundry.karyawan' doesn't exist
+ERROR - 2024-07-28 06:50:58 --> Table 'laundry.karyawan' doesn't exist
+ERROR - 2024-07-28 08:19:51 --> MySQL server has gone away
+CRITICAL - 2024-07-28 08:19:51 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(239): App\Models\M_laundry->tampil('user')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->detail_karyawan('6')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-07-28 08:20:41 --> Table 'laundry.jpakaian' doesn't exist
+CRITICAL - 2024-07-28 08:20:41 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(363): App\Models\M_laundry->join4tblAndFilterByUser1('pemesanan', 'jpakaian', 'jpelayanan', 'user', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'pemesanan.id_us...', '1')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->transaksi()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-28 08:26:35 --> Invalid argument supplied for foreach()
+#0 C:\laundry\app\Views\setting.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laundry\\app\\...', 22, Array)
+#1 C:\laundry\system\View\View.php(230): include('C:\\laundry\\app\\...')
+#2 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('setting', Array, true)
+#4 C:\laundry\app\Controllers\Home.php(543): view('setting', Array)
+#5 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#6 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#10 {main}
+CRITICAL - 2024-07-28 08:29:12 --> Object of class stdClass could not be converted to string
+#0 C:\laundry\system\View\View.php(230): include()
+#1 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('setting', Array, true)
+#3 C:\laundry\app\Controllers\Home.php(543): view('setting', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 08:29:42 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\laundry\system\Model.php on line 800
+#0 C:\laundry\system\Model.php(800): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\laundry\app\Controllers\Home.php(454): CodeIgniter\Model->__call('getwhere', Array)
+#2 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->laporan()
+#3 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#7 {main}
+CRITICAL - 2024-07-28 08:38:48 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\laundry\system\Model.php on line 800
+#0 C:\laundry\system\Model.php(800): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\laundry\app\Controllers\Home.php(454): CodeIgniter\Model->__call('getwhere', Array)
+#2 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->laporan()
+#3 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#7 {main}
+CRITICAL - 2024-07-28 08:48:26 --> There is no data to update.
+#0 C:\laundry\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\laundry\app\Models\M_laundry.php(285): CodeIgniter\Model->update(1, Array)
+#3 C:\laundry\app\Controllers\Home.php(611): App\Models\M_laundry->updateSettings(Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_t_settings()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 08:48:37 --> There is no data to update.
+#0 C:\laundry\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\laundry\app\Models\M_laundry.php(285): CodeIgniter\Model->update(1, Array)
+#3 C:\laundry\app\Controllers\Home.php(611): App\Models\M_laundry->updateSettings(Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_t_settings()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 08:50:31 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\laundry\system\Model.php on line 800
+#0 C:\laundry\system\Model.php(800): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\laundry\app\Controllers\Home.php(454): CodeIgniter\Model->__call('getwhere', Array)
+#2 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->laporan()
+#3 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#7 {main}
+CRITICAL - 2024-07-28 09:00:05 --> There is no data to update.
+#0 C:\laundry\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\laundry\app\Models\M_laundry.php(285): CodeIgniter\Model->update(1, Array)
+#3 C:\laundry\app\Controllers\Home.php(614): App\Models\M_laundry->updateSettings(Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_t_settings()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 09:01:16 --> There is no data to update.
+#0 C:\laundry\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\laundry\app\Models\M_laundry.php(285): CodeIgniter\Model->update(1, Array)
+#3 C:\laundry\app\Controllers\Home.php(614): App\Models\M_laundry->updateSettings(Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_t_settings()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-07-28 22:48:13 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\laundry\system\Model.php on line 800
+#0 C:\laundry\system\Model.php(800): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\laundry\app\Controllers\Home.php(38): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#3 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#7 {main}
+CRITICAL - 2024-07-28 22:48:22 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\laundry\system\Model.php on line 800
+#0 C:\laundry\system\Model.php(800): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\laundry\app\Controllers\Home.php(38): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#3 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#7 {main}
+CRITICAL - 2024-07-28 22:49:12 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\laundry\system\Model.php on line 800
+#0 C:\laundry\system\Model.php(800): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\laundry\app\Controllers\Home.php(38): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#3 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#7 {main}
+CRITICAL - 2024-07-28 22:49:17 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\laundry\system\Model.php on line 800
+#0 C:\laundry\system\Model.php(800): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\laundry\app\Controllers\Home.php(38): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#3 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#7 {main}
+CRITICAL - 2024-07-28 22:50:32 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\laundry\system\Model.php on line 800
+#0 C:\laundry\system\Model.php(800): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\laundry\app\Controllers\Home.php(38): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#3 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#7 {main}
+CRITICAL - 2024-07-28 22:50:36 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\laundry\system\Model.php on line 800
+#0 C:\laundry\system\Model.php(800): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\laundry\app\Controllers\Home.php(38): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#3 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#7 {main}
+CRITICAL - 2024-07-28 23:18:29 --> There is no data to update.
+#0 C:\laundry\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\laundry\app\Models\M_laundry.php(287): CodeIgniter\Model->update(1, Array)
+#3 C:\laundry\app\Controllers\Home.php(608): App\Models\M_laundry->updateSettings(Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_t_settings()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+ERROR - 2024-07-28 23:19:28 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2024-07-28 23:25:14 --> Call to undefined method App\Models\M_laundry::updateSettings
+#0 C:\laundry\app\Controllers\Home.php(608): CodeIgniter\Model->__call('updateSettings', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_t_settings()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-28 23:25:36 --> Call to undefined method App\Models\M_laundry::updateSettings
+#0 C:\laundry\app\Controllers\Home.php(608): CodeIgniter\Model->__call('updateSettings', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_t_settings()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-28 23:25:39 --> Call to undefined method App\Models\M_laundry::updateSettings
+#0 C:\laundry\app\Controllers\Home.php(608): CodeIgniter\Model->__call('updateSettings', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_t_settings()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-07-28 23:32:21 --> Too few arguments to function App\Controllers\Home::settings(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->settings()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 23:32:27 --> Too few arguments to function App\Controllers\Home::settings(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->settings()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 23:32:28 --> Too few arguments to function App\Controllers\Home::settings(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->settings()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 23:32:29 --> Too few arguments to function App\Controllers\Home::settings(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->settings()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 23:32:34 --> Too few arguments to function App\Controllers\Home::settings(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->settings()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 23:33:23 --> Too few arguments to function App\Controllers\Home::settings(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->settings()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 23:33:26 --> Too few arguments to function App\Controllers\Home::settings(), 0 passed in C:\laundry\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->settings()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-07-28 23:37:48 --> Invalid file: settings.php
+#0 C:\laundry\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('settings.php')
+#1 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('settings', Array, true)
+#2 C:\laundry\app\Controllers\Home.php(560): view('settings', Array)
+#3 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->settings()
+#4 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#8 {main}
+CRITICAL - 2024-07-28 23:37:56 --> Invalid file: settings.php
+#0 C:\laundry\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('settings.php')
+#1 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('settings', Array, true)
+#2 C:\laundry\app\Controllers\Home.php(560): view('settings', Array)
+#3 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->settings()
+#4 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#8 {main}
+CRITICAL - 2024-07-28 23:42:50 --> There is no data to update.
+#0 C:\laundry\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\laundry\app\Controllers\Home.php(575): CodeIgniter\Model->update('setting', Array)
+#3 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_t_setting()
+#4 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#8 {main}
+CRITICAL - 2024-07-28 23:42:56 --> There is no data to update.
+#0 C:\laundry\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\laundry\app\Controllers\Home.php(575): CodeIgniter\Model->update('setting', Array)
+#3 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_t_setting()
+#4 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#8 {main}
+CRITICAL - 2024-07-28 23:43:36 --> There is no data to update.
+#0 C:\laundry\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laundry\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\laundry\app\Controllers\Home.php(575): CodeIgniter\Model->update('setting', Array)
+#3 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->aksi_t_setting()
+#4 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#8 {main}

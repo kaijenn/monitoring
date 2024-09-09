@@ -1,0 +1,274 @@
+CRITICAL - 2024-08-11 20:40:18 --> Call to a member function getByStatus() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-08-11 20:41:16 --> Call to a member function getByStatus() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-08-11 20:41:17 --> Call to a member function getByStatus() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-08-11 20:41:21 --> Call to a member function deletePemesanan() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->hapus_pemesanan1('63')
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
+CRITICAL - 2024-08-11 20:47:10 --> Call to undefined method App\Models\M_laundry::getWheres
+#0 C:\laundry\app\Controllers\Home.php(283): CodeIgniter\Model->__call('getWheres', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-11 20:47:17 --> Table 'laundrybaru.pemesanan_deleted' doesn't exist
+CRITICAL - 2024-08-11 20:47:17 --> Call to undefined method App\Models\M_laundry::getWheres
+#0 C:\laundry\app\Controllers\Home.php(283): CodeIgniter\Model->__call('getWheres', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 20:47:34 --> Too few arguments to function App\Models\M_laundry::getWhere(), 1 passed in C:\laundry\app\Controllers\Home.php on line 283 and exactly 2 expected
+#0 C:\laundry\app\Controllers\Home.php(283): App\Models\M_laundry->getWhere('pemesanan_delet...')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-11 20:53:02 --> Unknown column 'id_pemesanan' in 'where clause'
+ERROR - 2024-08-11 20:53:02 --> Unknown column 'is_deleted' in 'where clause'
+CRITICAL - 2024-08-11 20:53:02 --> Call to a member function getResultArray() on bool
+#0 C:\laundry\app\Controllers\Home.php(283): App\Models\M_laundry->getDeletedData()
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-11 20:53:50 --> Unknown column 'is_deleted' in 'where clause'
+CRITICAL - 2024-08-11 20:53:50 --> Call to a member function getResultArray() on bool
+#0 C:\laundry\app\Controllers\Home.php(283): App\Models\M_laundry->getDeletedData()
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-11 20:53:51 --> Unknown column 'is_deleted' in 'where clause'
+CRITICAL - 2024-08-11 20:53:51 --> Call to a member function getResultArray() on bool
+#0 C:\laundry\app\Controllers\Home.php(283): App\Models\M_laundry->getDeletedData()
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-11 20:53:54 --> Unknown column 'is_deleted' in 'where clause'
+CRITICAL - 2024-08-11 20:53:54 --> Call to a member function getResultArray() on bool
+#0 C:\laundry\app\Controllers\Home.php(283): App\Models\M_laundry->getDeletedData()
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-11 20:54:27 --> Unknown column 'is_deleted' in 'where clause'
+ERROR - 2024-08-11 20:54:27 --> Query failed: SELECT *
+FROM `user`
+WHERE `is_deleted` = 1
+ERROR - 2024-08-11 20:54:32 --> Unknown column 'id_pemesanan' in 'where clause'
+ERROR - 2024-08-11 20:54:32 --> Unknown column 'is_deleted' in 'where clause'
+ERROR - 2024-08-11 20:54:32 --> Query failed: SELECT *
+FROM `user`
+WHERE `is_deleted` = 1
+ERROR - 2024-08-11 20:54:56 --> Unknown column 'id_pemesanan' in 'where clause'
+ERROR - 2024-08-11 20:54:56 --> Unknown column 'is_deleted' in 'where clause'
+ERROR - 2024-08-11 20:55:58 --> Unknown column 'id_pemesanan' in 'where clause'
+ERROR - 2024-08-11 20:55:58 --> Unknown column 'id_pemesanan' in 'where clause'
+ERROR - 2024-08-11 20:56:15 --> Unknown column 'id_pemesanan' in 'where clause'
+ERROR - 2024-08-11 20:56:15 --> Unknown column 'id_pemesanan' in 'where clause'
+CRITICAL - 2024-08-11 20:56:15 --> Call to a member function getResultArray() on bool
+#0 C:\laundry\app\Controllers\Home.php(283): App\Models\M_laundry->getDeletedData()
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 20:56:38 --> Too few arguments to function App\Models\M_laundry::getWhere(), 1 passed in C:\laundry\app\Controllers\Home.php on line 283 and exactly 2 expected
+#0 C:\laundry\app\Controllers\Home.php(283): App\Models\M_laundry->getWhere('pemesanan_delet...')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 20:56:43 --> Too few arguments to function App\Models\M_laundry::getWhere(), 1 passed in C:\laundry\app\Controllers\Home.php on line 283 and exactly 2 expected
+#0 C:\laundry\app\Controllers\Home.php(283): App\Models\M_laundry->getWhere('pemesanan_delet...')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 20:56:44 --> Too few arguments to function App\Models\M_laundry::getWhere(), 1 passed in C:\laundry\app\Controllers\Home.php on line 283 and exactly 2 expected
+#0 C:\laundry\app\Controllers\Home.php(283): App\Models\M_laundry->getWhere('pemesanan_delet...')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 21:03:32 --> Cannot use object of type stdClass as array
+#0 C:\laundry\system\View\View.php(230): include()
+#1 C:\laundry\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('restore', Array, true)
+#3 C:\laundry\app\Controllers\Home.php(326): view('restore', Array)
+#4 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#5 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#9 {main}
+CRITICAL - 2024-08-11 21:09:55 --> Call to undefined method App\Models\M_laundry::getWhere11
+#0 C:\laundry\app\Controllers\Home.php(319): CodeIgniter\Model->__call('getWhere11', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 21:11:04 --> Call to undefined method App\Models\M_laundry::getWhere11
+#0 C:\laundry\app\Controllers\Home.php(319): CodeIgniter\Model->__call('getWhere11', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 21:11:05 --> Call to undefined method App\Models\M_laundry::getWhere11
+#0 C:\laundry\app\Controllers\Home.php(319): CodeIgniter\Model->__call('getWhere11', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 21:11:06 --> Call to undefined method App\Models\M_laundry::getWhere11
+#0 C:\laundry\app\Controllers\Home.php(319): CodeIgniter\Model->__call('getWhere11', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 21:11:08 --> Call to undefined method App\Models\M_laundry::getWhere11
+#0 C:\laundry\app\Controllers\Home.php(319): CodeIgniter\Model->__call('getWhere11', Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 21:18:09 --> Invalid file: pemesanan_karyawan.php
+#0 C:\laundry\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pemesanan_karya...')
+#1 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('pemesanan_karya...', Array, true)
+#2 C:\laundry\app\Controllers\Home.php(285): view('pemesanan_karya...', Array)
+#3 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#4 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#8 {main}
+CRITICAL - 2024-08-11 21:18:12 --> Invalid file: pemesanan_karyawan.php
+#0 C:\laundry\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pemesanan_karya...')
+#1 C:\laundry\system\Common.php(1271): CodeIgniter\View\View->render('pemesanan_karya...', Array, true)
+#2 C:\laundry\app\Controllers\Home.php(285): view('pemesanan_karya...', Array)
+#3 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#4 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#8 {main}
+ERROR - 2024-08-11 21:24:40 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-08-11 21:24:40 --> Call to a member function getResult() on bool
+#0 C:\laundry\app\Controllers\Home.php(288): App\Models\M_laundry->join4tblOrderBy('pemesanan', 'user', 'jpakaian', 'jpelayanan', 'pemesanan.id_us...', 'pemesanan.id_jp...', 'pemesanan.id_jp...', 'kode_pemesanan', 'DESC')
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->pemesanan_karyawan()
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 21:35:46 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 457, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000002', 'images', 'faces', 'face1.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 21:35:46 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 457, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000002', 'images', 'faces', 'face2.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 21:35:46 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 457, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000002', 'images', 'faces', 'face3.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 21:35:47 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 457, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000002', 'images', 'faces', 'face4.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 21:35:47 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 457, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000002', 'images', 'faces', 'face5.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+CRITICAL - 2024-08-11 21:35:47 --> A non-numeric value encountered
+#0 C:\laundry\app\Controllers\Home.php(457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laundry\\app\\...', 457, Array)
+#1 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->view_nota('PS00000002', 'images', 'faces', 'face6.jpg')
+#2 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#6 {main}
+ERROR - 2024-08-11 21:42:14 --> Table 'laundrybaru.restore' doesn't exist
+ERROR - 2024-08-11 21:42:41 --> Table 'laundrybaru.restore' doesn't exist
+CRITICAL - 2024-08-11 21:46:04 --> Call to a member function table() on null
+#0 C:\laundry\system\CodeIgniter.php(928): App\Controllers\Home->restore()
+#1 C:\laundry\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laundry\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laundry\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laundry\system\Commands\Server\rewrite.php(45): require_once('C:\\laundry\\publ...')
+#5 {main}
